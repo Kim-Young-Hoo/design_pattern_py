@@ -19,13 +19,3 @@ class Duck:
 
 
 
-duck = Duck(
-    db=display_behavior.VideoDisplay(),
-    fb=fly_behavior.UpDownFly(),
-    qb=quack_behavior.LoudQuack()
-)
-
-
-duck.display()
-duck.fly()
-duck.quack()
